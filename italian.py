@@ -4,9 +4,11 @@ if __name__ == '__main__':
     questionnaire = {
         'Which of the following decribes \'a pasta with few ingredients?\'': ['putanesca', 'spaghetti', 'rigatoni', 'lasagna'],
         'Which of the following pastas contains cheese, bacon, and an egg?': ['carbonara', 'gnocci', 'ziti', 'ragu'],
-        'What is the capital of Italy?': ['Rome', 'Venice', 'Florence', 'Milan']
-        ''
+        'What is the capital of Italy?': ['Rome', 'Venice', 'Florence', 'Milan'],
+        'How do you say "Hello" in Italian?': ['Ciao', 'arrivederci', 'buongiorno', 'buonasera'],
+    'What is the most common food eaten in Italy?':['Pizza', 'Pasta', 'Hamburger', 'Salad'], 
     }
+    
 
     random_pair = random.choice(list(questionnaire.items()))
     question, answers = random_pair 
